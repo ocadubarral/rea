@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run the REA CLI from this checkout.
+exec node "$(dirname "$0")/../../scripts/rea.mjs" "$@"
